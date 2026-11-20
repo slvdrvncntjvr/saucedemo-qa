@@ -1,0 +1,22 @@
+{
+  "name": "saucedemo-qa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence-driven SauceDemo QA with Playwright and TypeScript.",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@types/node": "24.19.2",
+    "typescript": "7.0.2"
+  }
+}

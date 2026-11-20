@@ -1,0 +1,34 @@
+# Dependencies and generated test artifacts
+/node_modules/
+/playwright-report/
+/test-results/
+/blob-report/
+/coverage/
+*.tsbuildinfo
+*.log
+
+# Local screen recordings
+*.mp4
+*.mov
+*.webm
+*.mkv
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/.agents/
+/.codex/
+/.aws/
+/.local/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Recruitment correspondence and internal preparation
+/email_to_me.txt
+/Kismet Labs QA Strategy.pdf
+/FACT_CHECK.md
+/IMPLEMENTATION_PLAN.md
+/REPORT.pdf
+/docs/research/
