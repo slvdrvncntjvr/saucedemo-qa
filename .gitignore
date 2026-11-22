@@ -1,6 +1,5 @@
 # Dependencies and generated test artifacts
 /node_modules/
-/playwright-report/
 /test-results/
 /blob-report/
 /coverage/
